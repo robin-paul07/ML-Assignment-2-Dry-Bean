@@ -62,7 +62,7 @@ Recall equals Accuracy in every row because weighted-average recall is mathemati
 | KNN | Accuracy of 0.9166 is only about 0.4 points below Logistic Regression, but its AUC (0.9833) is clearly lower. Being distance-based, it relies on the feature scaling in the pipeline and is less accurate where classes overlap. |
 | Naive Bayes | Accuracy is low (0.8979) but AUC is high (0.9916), so it ranks classes well yet makes weaker final decisions. A likely cause is that Area, Perimeter, ConvexArea, EquivDiameter and MajorAxisLength are strongly correlated, which breaks its independence assumption. |
 | Support Vector Machine | Best on accuracy (0.9221), AUC (0.9949), F1 (0.9222) and MCC (0.9059). Its lead over Logistic Regression is 0.0015 in accuracy, about 4 of 2,723 test samples, so the two are practically tied. |
-| Overall winner | **Support Vector Machine** on all headline metrics. Logistic Regression is a near-equal and simpler and both clearly beat the Decision Tree and Naive Bayes. |
+| Overall winner | **Support Vector Machine** on all headline metrics. Logistic Regression is a near-equal and simpler alternative and both clearly beat the Decision Tree and Naive Bayes. |
 
 
 ## 6. Repository contents
@@ -74,7 +74,7 @@ Recall equals Accuracy in every row because weighted-average recall is mathemati
 - `test_data.csv` — held-out test records with target labels (created by training).
 - `metrics_summary.csv` — training-script evaluation output (created by training).
 - `model_metadata.json` — feature names and label metadata (created by training).
-- `ML_Assignment_2.ipynb`- The Notebook generated
+- `ML_Assignment_2.ipynb`- Jupyter notebook used to run the training and evaluation in BITS Virtual Lab
 
 ## 7. How to run in BITS Virtual Lab
 
