@@ -5,7 +5,6 @@
 **Dataset:** UCI Dry Bean Dataset (UCI ID: 602)  
 **Problem type:** Seven-class classification
 
-> This repository is a runnable reference implementation. Execute it in BITS Virtual Lab, inspect the outputs, and write your own observations based on the results you obtain. Do not submit unverified or invented metric values.
 
 ## 1. Problem statement
 
@@ -52,7 +51,6 @@ The implementation calculates the six required measures for each model:
 - F1 Score (weighted average)
 - Matthews Correlation Coefficient (MCC)
 
-After running `train_models.py`, copy the actual values from `metrics_summary.csv` into the table below. Do not use example or assumed values.
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
@@ -64,7 +62,7 @@ After running `train_models.py`, copy the actual values from `metrics_summary.cs
 
 ### Observations on model performance
 
-Complete this section after running the models. Discuss the measured results, not assumptions.
+
 
 | Model | Observation to complete from your actual results |
 |---|---|
@@ -90,15 +88,13 @@ It also compares all five classifiers on the uploaded test CSV and displays samp
 
 ## 7. GitHub repository link
 
-Add your public GitHub repository URL here after creating and pushing the project.
 
 `https://github.com/robin-paul07/ML-Assignment-2-Dry-Bean`
 
 ## 8. Live Streamlit application link
 
-Add your deployed Streamlit Community Cloud URL here after deployment.
 
-`https://dry-bean-classification-2026.streamlit.app?utm_source=chatgpt.com`
+`https://dry-bean-classification-2026.streamlit.app`
 
 ## 9. BITS Virtual Lab execution evidence
 
