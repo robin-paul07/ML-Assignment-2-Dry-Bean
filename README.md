@@ -68,12 +68,12 @@ Complete this section after running the models. Discuss the measured results, no
 
 | Model | Observation to complete from your actual results |
 |---|---|
-| Logistic Regression | Discuss its Accuracy, AUC, weighted F1 and MCC. Note whether a linear decision boundary appears adequate for this dataset. |
-| Decision Tree | Discuss its scores and whether its performance suggests useful nonlinear splits. Consider possible overfitting. |
-| KNN | Discuss its scores after feature scaling and how local-neighbour voting performed. |
-| Naive Bayes | Discuss its scores and the effect of the Gaussian feature-independence assumptions. |
-| Support Vector Machine | Discuss its scores and whether it provided strong class separation relative to the other methods. |
-| Overall winner | Identify the model that best meets the evaluation objective. Explain the choice using multiple metrics, not accuracy alone. |
+| Logistic Regression | Achieved 92.07% accuracy and 0.920873 F1, with an excellent AUC of 0.994768. It provides strong overall classification performance. |
+| Decision Tree | Achieved 88.84% accuracy and 0.887862 F1, the lowest among the five models. It performed comparatively less effectively. |
+| KNN | Achieved 91.66% accuracy and 0.916805 F1, demonstrating strong classification performance. |
+| Naive Bayes | Achieved 89.79% accuracy and 0.898075 F1. It outperformed Decision Tree but remained below the other three models. |
+| Support Vector Machine | Achieved the highest accuracy (92.21%), F1 (0.922177) and MCC (0.905870), making it the overall winner. |
+| Overall winner | Support Vector Machine, based on its leading accuracy, F1 and MCC. |
 
 ## 6. Streamlit application
 
@@ -92,7 +92,7 @@ It also compares all five classifiers on the uploaded test CSV and displays samp
 
 Add your public GitHub repository URL here after creating and pushing the project.
 
-`[PASTE YOUR GITHUB REPOSITORY URL]`
+`https://github.com/robin-paul07/ML-Assignment-2-Dry-Bean`
 
 ## 8. Live Streamlit application link
 
