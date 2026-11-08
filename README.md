@@ -98,7 +98,7 @@ Add your public GitHub repository URL here after creating and pushing the projec
 
 Add your deployed Streamlit Community Cloud URL here after deployment.
 
-`[PASTE YOUR LIVE STREAMLIT APP URL]`
+`https://dry-bean-classification-2026.streamlit.app?utm_source=chatgpt.com`
 
 ## 9. BITS Virtual Lab execution evidence
 
