@@ -56,11 +56,11 @@ After running `train_models.py`, copy the actual values from `metrics_summary.cs
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
-| Logistic Regression | Run script | Run script | Run script | Run script | Run script | Run script |
-| Decision Tree | Run script | Run script | Run script | Run script | Run script | Run script |
-| KNN | Run script | Run script | Run script | Run script | Run script | Run script |
-| Naive Bayes | Run script | Run script | Run script | Run script | Run script | Run script |
-| Support Vector Machine | Run script | Run script | Run script | Run script | Run script | Run script |
+| Logistic Regression | 0.920676 | 0.994768 | 0.921533 | 0.920676 | 0.920873 | 0.904167 |
+| Decision Tree | 0.888358 | 0.953088 | 0.888243 | 0.888358 | 0.887862 | 0.865178 |
+| KNN | 0.916636 | 0.983317 | 0.917409 | 0.916636 | 0.916805 | 0.899204 |
+| Naive Bayes | 0.897907 | 0.991614 | 0.900702 | 0.897907 | 0.898075 | 0.877263 |
+| Support Vector Machine | 0.922145 | 0.994927 | 0.922426 | 0.922145 | 0.922177 | 0.905870 |
 
 ### Observations on model performance
 
